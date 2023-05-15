@@ -73,6 +73,50 @@ main .poke-card .info{
 }
 
 main .poke-card .info span{
-    background-color: aqua;
+    /*background-color: aqua;*/
     padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .poke-card .poke-gif{
+    width: 90px;
+    height: 90px;
+    /*background-color: gray;*/
+}
+
+main .poke-card .pokemon-types{
+    background-color: white;
+    display: flex;
+    gap: 15px;
+}
+
+main .poke-card .type{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grass{
+    background-color: #7ac74c;
+}
+
+.poison{
+    background-color: #df67ddfb;
+}
+
+.fire{
+    background-color: #ee8130;
+}
+
+.flying{
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background-color: #3dc7ef;
+}
+
+.water{
+    background-color: #6390f0;
+}
+
+.bug{
+    background-color: #a6b91a;
 }
