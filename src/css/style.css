@@ -34,7 +34,7 @@ header .logo:hover, header .button-image:hover, main .poke-card:hover{
 }/* increases when hovering the mouse over it */
 
 main{
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     padding: 25px;
 }
 
@@ -60,3 +60,19 @@ main .poke-card{
 main .poke-card:hover{
     background-color: #96d9e6;
 }/* change the color when hovering the mouse over it */
+
+.dark-mode .poke-card{
+    background-color: #a8a8a8;
+}
+
+main .poke-card .info{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .poke-card .info span{
+    background-color: aqua;
+    padding: 5px;
+}
