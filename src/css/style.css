@@ -12,7 +12,7 @@ body.dark-mode{
 }
 
 header{
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -20,10 +20,19 @@ header{
 
 header .logo, header .button-image{
     width: 30px;
-}
+}/* class header logo, header button-image */
 
-header #change-theme-button{
+header #change-button-theme{
     background: none;
     border: none;
+}/* id change-theme-button */
+
+header .logo:hover, header .button-image:hover{
+    transform: scale(1.05);
     cursor: pointer;
+}/* pop up the pokeball and sun images when pass the mouse */
+
+main{
+    background-color: antiquewhite;
+    padding: 25px;
 }
