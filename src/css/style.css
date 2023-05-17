@@ -23,7 +23,7 @@ header .logo, header .button-image{
     transition: 0.2s ease-in-out;
 }/* class header logo, header button-image */
 
-header #change-button-theme{
+header #change-theme-button{
     background: none;
     border: none;
 }/* id change-theme-button */
