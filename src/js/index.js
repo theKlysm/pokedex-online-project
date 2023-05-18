@@ -6,7 +6,7 @@ const themeChangeButtonImage = document.querySelector(".button-image"); //pass-5
 themeChangeButton.addEventListener("click", () => {
     const activeDarkMode = body.classList.contains("dark-mode");
     
-    body.classList.toogle("dark-mode"); //alternate the value of the class. Can substitute .add and .remove
+    body.classList.toggle("dark-mode"); //alternate the value of the class. Can substitute .add and .remove
 
     if(activeDarkMode){
         //console.log("dark-mode esta ativo");
