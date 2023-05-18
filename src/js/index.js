@@ -4,14 +4,16 @@ const body = document.querySelector("body"); //pass-2
 
 const themeChangeButtonImage = document.querySelector(".button-image");//pass-5
 
-const activeDarkMode = body.classList.contains("dark-mode");
-
 themeChangeButton.addEventListener("click", () => {
-    body.classList.add("dark-mode");//pass-4
-
-    themeChangeButtonImage.setAttribute("src", "./src/images/moon.png");//pass-5
-
+    const activeDarkMode = body.classList.contains("dark-mode");
+    
     if(activeDarkMode){
         //console.log("dark-mode esta ativo");
-    };//pass-6
+        body.classList.remove("dark-mode");
+        themeChangeButtonImage.setAttribute("src", "./src/images/sun.png"); //pass-8
+    } else {
+        body.classList.add("dark-mode");//pass-4
+
+        themeChangeButtonImage.setAttribute("src", "./src/images/moon.png");//pass-5
+    }
 });//pass-3
