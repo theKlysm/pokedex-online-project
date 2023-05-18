@@ -1,7 +1,5 @@
-const themeChangeButton = document.getElementById("change-theme-button"); //pass-1
-
+const themeChangeButton = document.getElementById("change-theme-button");//pass-1
 const body = document.querySelector("body"); //pass-2
-
 const themeChangeButtonImage = document.querySelector(".button-image");//pass-5
 
 
